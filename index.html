@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body{
+            
+            margin: 0px;
+        }
+
+        header {
+            color: white;
+            text-align: center;
+            padding: 70px;
+            background-image: url('img/Background-header.jpg');
+        }
+
+        main {
+            display: flex;
+        }
+
+        asideLeft {
+            display: absolute;
+            background-color: #E5C33D;
+            width: 70%;
+            height: 100%;
+        }
+
+        asideRight {
+            display: absolute;
+            background-color: #E4E870;
+            width: 30%;
+            height: 816px;
+        }
+
+        #ProfileBox {
+            display: flex;
+        }
+
+        #profilePicture {
+            margin: 120px 50px 50px 150px;
+            border-radius: 50%;
+            height: 300px;
+            width: 300px;
+        }
+
+        #profile{
+            margin: 150px 50px 50px 50px;
+            font-size: 25px;
+        }
+
+        #name {
+            font-size: 50px;
+        }
+
+        #EduPicture {          
+            width: 60px;
+            height: 40px;
+            margin: 120px 0px 0px 150px;
+        }
+
+        #detailBox {
+            display: flex;
+        }
+
+        #education {
+            margin: 125px 50px 0px 20px;
+
+        }
+
+        #List {
+            margin: 20px 0px 0px 150px;
+        }
+
+        p {
+            font-size: 1.5em;
+        }
+
+        #SkillBox {
+            display: flex;
+        }
+
+        #SkillPicture {          
+            width: 60px;
+            height: 40px;
+            margin: 150px 0px 0px 20px;
+        }
+
+        #skill {
+            margin: 150px 50px 0px 20px;
+
+        }
+
+        #ListSkill {
+            margin: 20px 20px 0px 100px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div id="name">Mr. Paramate Soontornwipat</div>
+        <h1>Nickname: Mos</h1>
+    </header>
+
+    <main>
+        <asideLeft>
+            <div id="ProfileBox">
+                <div>
+                    <img id="profilePicture" src="img/Profile.jpg" alt="Profile Picture">
+                </div>
+                <div id="profile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga magni at dolores minus adipisci, 
+                    excepturi officia, aliquid dignissimos necessitatibus ipsa natus corporis in nam, suscipit pariatur 
+                    repellendus voluptatum nesciunt architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Fuga magni at dolores minus adipisci,excepturi officia, aliquid dignissimos necessitatibus ipsa natus corporis 
+                    in nam, suscipit pariatur repellendus voluptatum nesciunt architecto.
+                </div>
+            </div>
+
+            <div id="detailBox">
+                <img id="EduPicture" src="img/Education Icon.png" alt="Education icon">
+                <h1 id="education">EDUCATION</h1>
+            </div>
+
+            <ul id="List">
+                <li>
+                    <p>2012 - 2015 : Master of Chemical Engineering from King Mongkut’s <br>
+                        University of Technology Thonburi, Bangkok, Thailand.</p>
+                </li>
+                <li>
+                    <p>2008 - 2012 : Bachelor of Chemical Engineering from King Mongkut’s <br>
+                        University of Technology Thonburi, Bangkok, Thailand.</p>
+                </li>
+            </ul>
+                
+        </asideLeft>
+
+        <asideRight>
+
+            <div id="SkillBox">
+                <img id="SkillPicture" src="img/Skill Icon.png" alt="Skill icon">
+                <h1 id="skill">Skill</h1>
+            </div>
+
+            <ul id="ListSkill">
+                    <li>
+                        <p>Kill mosquitoes by one hand</p>
+                    </li>
+                    <li>
+                        <p>Talk to myself</p>
+                    </li>
+                    <li>
+                        <p>Continuously sleep without waking up over one day</p>
+                    </li>
+                    <li>
+                        <p>Always feel sleepy while study in the class</p>
+                    </li>
+            </ul>
+
+        </asideRight>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
